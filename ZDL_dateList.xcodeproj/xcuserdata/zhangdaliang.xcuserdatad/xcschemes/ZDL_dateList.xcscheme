@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "7E1BA8D41F32FBCB0002B105"
+               BuildableName = "ZDL_dateList.app"
+               BlueprintName = "ZDL_dateList"
+               ReferencedContainer = "container:ZDL_dateList.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "7E1BA8ED1F32FBCC0002B105"
+               BuildableName = "ZDL_dateListTests.xctest"
+               BlueprintName = "ZDL_dateListTests"
+               ReferencedContainer = "container:ZDL_dateList.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "7E1BA8F81F32FBCC0002B105"
+               BuildableName = "ZDL_dateListUITests.xctest"
+               BlueprintName = "ZDL_dateListUITests"
+               ReferencedContainer = "container:ZDL_dateList.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "7E1BA8D41F32FBCB0002B105"
+            BuildableName = "ZDL_dateList.app"
+            BlueprintName = "ZDL_dateList"
+            ReferencedContainer = "container:ZDL_dateList.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "7E1BA8D41F32FBCB0002B105"
+            BuildableName = "ZDL_dateList.app"
+            BlueprintName = "ZDL_dateList"
+            ReferencedContainer = "container:ZDL_dateList.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "7E1BA8D41F32FBCB0002B105"
+            BuildableName = "ZDL_dateList.app"
+            BlueprintName = "ZDL_dateList"
+            ReferencedContainer = "container:ZDL_dateList.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

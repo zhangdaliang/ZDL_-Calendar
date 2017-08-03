@@ -15,6 +15,7 @@
 		7E1BA8E81F32FBCB0002B105 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E1BA8E61F32FBCB0002B105 /* LaunchScreen.storyboard */; };
 		7E1BA8F31F32FBCC0002B105 /* ZDL_dateListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1BA8F21F32FBCC0002B105 /* ZDL_dateListTests.m */; };
 		7E1BA8FE1F32FBCC0002B105 /* ZDL_dateListUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1BA8FD1F32FBCC0002B105 /* ZDL_dateListUITests.m */; };
+		7E1BA90D1F32FC090002B105 /* DateListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1BA90C1F32FC090002B105 /* DateListView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		7E1BA8F91F32FBCC0002B105 /* ZDL_dateListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZDL_dateListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E1BA8FD1F32FBCC0002B105 /* ZDL_dateListUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZDL_dateListUITests.m; sourceTree = "<group>"; };
 		7E1BA8FF1F32FBCC0002B105 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E1BA90B1F32FC090002B105 /* DateListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateListView.h; sourceTree = "<group>"; };
+		7E1BA90C1F32FC090002B105 /* DateListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateListView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,8 @@
 			children = (
 				7E1BA8DB1F32FBCB0002B105 /* AppDelegate.h */,
 				7E1BA8DC1F32FBCB0002B105 /* AppDelegate.m */,
+				7E1BA90B1F32FC090002B105 /* DateListView.h */,
+				7E1BA90C1F32FC090002B105 /* DateListView.m */,
 				7E1BA8DE1F32FBCB0002B105 /* ViewController.h */,
 				7E1BA8DF1F32FBCB0002B105 /* ViewController.m */,
 				7E1BA8E11F32FBCB0002B105 /* Main.storyboard */,
@@ -207,7 +212,7 @@
 				TargetAttributes = {
 					7E1BA8D41F32FBCB0002B105 = {
 						CreatedOnToolsVersion = 8.3.3;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					7E1BA8ED1F32FBCC0002B105 = {
 						CreatedOnToolsVersion = 8.3.3;
@@ -275,6 +280,7 @@
 			files = (
 				7E1BA8E01F32FBCB0002B105 /* ViewController.m in Sources */,
 				7E1BA8DD1F32FBCB0002B105 /* AppDelegate.m in Sources */,
+				7E1BA90D1F32FC090002B105 /* DateListView.m in Sources */,
 				7E1BA8DA1F32FBCB0002B105 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,10 +430,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ZDL_dateList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "yshow.-ceshiSpriteKit.ZDL-dateList";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -435,10 +443,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ZDL_dateList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "yshow.-ceshiSpriteKit.ZDL-dateList";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
