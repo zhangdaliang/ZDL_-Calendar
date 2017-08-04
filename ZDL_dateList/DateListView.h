@@ -10,6 +10,6 @@
 
 @interface DateListView : UIView
 
-+(instancetype)dateListViewWithData:(NSArray *)dataArray frame:(CGRect)frame block:(void(^)(NSString *dateStr))block;
++(instancetype)dateListViewWithData:(NSDictionary *)data frame:(CGRect)frame block:(void(^)(NSString *dateStr))block;
 
 @end
